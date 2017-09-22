@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:id="@+id/tv_tinker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="444444444444444444!"
+        />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:id="@+id/tv_tinker1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="44444444444444444!"
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:id="@+id/tv_tinker2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我发现bug了222222222!"
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:id="@+id/tv_tinker3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我发现bug了2222222!"
+        />
+
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_tinker"
+        android:text="发现bug2222"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_tinker1"
+        android:text="发现bug1222"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+</LinearLayout>
